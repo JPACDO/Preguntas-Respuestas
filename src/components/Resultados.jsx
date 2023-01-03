@@ -4,7 +4,7 @@ export const Resultados = ({resultado}) => {
   return (
     <div >
       <figure>
-        <img src="../public/assets/Food.png" />
+        <img src="/assets/Food.png" />
       </figure>
       <div className='txt_result_porcent'>
         <p>
