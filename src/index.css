@@ -1,0 +1,149 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ece8e2;
+}
+
+#tarjeta {
+    /* height: 90%; */
+    width: 600px;
+    border-radius: 8px;
+
+    background: #F4F3F6;
+    border-radius: 8px;
+
+    display: grid;
+    padding-bottom: 30px;
+
+}
+
+.contenedor {
+    margin-left: 111px;
+    margin-top: 82px;
+    margin-right: 104px;
+}
+
+#page {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #45C486;
+}
+
+#pregunta {
+    margin-top: 16px;
+    margin-bottom: 74px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #191D63;
+}
+
+#opciones,
+button {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.opcion {
+    margin-bottom: 16px;
+    /* height: 60px; */
+
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.opcion:hover {
+    background: #31CD63;
+    color: #F4F3F6;
+}
+
+.num_option {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    background: #EDE8E3;
+    color: #060710;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 16px;
+
+    margin: auto 16px;
+}
+
+.num_txt {
+    width: 100%;
+    margin: auto 16px;
+}
+
+.text_option {
+    margin: 16px 16px;
+}
+
+.selected {
+    background: #31CD63;
+    color: #F4F3F6;
+}
+
+button {
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    background: #31CD63;
+    border-radius: 8px;
+    color: #F4F3F6;
+}
+
+button:disabled {
+    background: rgba(116, 116, 117, 0.5);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+figure {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_result_porcent {
+
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #45C486;
+    text-align: center;
+}
+
+.txt_result {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+}
