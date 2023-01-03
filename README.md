@@ -1,2 +1,2 @@
 # RETO2 HOLAJUNIORS
-Prueba: https://jpacdo.github.io/Preguntas-Respuestas/
+Prueba: https://funny-custard-415176.netlify.app/
